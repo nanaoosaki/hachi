@@ -1,4 +1,4 @@
-# Hachi: genAI projects to optimize your Obsidian Vault and build your own personal AI assistant
+# Hachi: Obsidian Thinking Engine - genAI projects to optimize your Obsidian Vault and build your own personal AI assistant
 
 Hachi is an AI-powered project designed for streamlining the maintenance of your Obsidian vault and allows you train your own personal AI assistant given the original thoughts and facts documented in your Obsidian vault. 
 
