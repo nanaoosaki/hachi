@@ -1,0 +1,43 @@
+**Project title**: **Obsidian Thinking Engine**
+
+**Context**: I have large amount of notes created in Obsidian ([https://obsidian.md/](https://obsidian.md/)) to organize my thoughts/ideas/tasks for life/work/school since 2021.
+
+**Problem Statement and Valuate Statement:** the Obsidian has served well for documenting/organizing everything for me, but the entire database is very messy, causing lots of inconvenience in information retrieval. There's another benefit that hasn't been fully exploited is to create more connections between notes and also reflections on past thoughts. I believe this would be helpful to invoke more in-depth thinking and also possibly serve as a personal brand by publishing some of them.
+
+**Functional Requirements (the ideal version):**
+
+1. creating connections for orphan notes or deletion of orphan notes upon review
+2. removal of redudant notes around the same topic or combine the redudant notes into a single version with changes from different sources without causing issues in referential integirty
+3. classification of original notes (in your own words) vs non-original (copy/pastes from wiki or chatgpt) notes, separate from notes that's actual quote and meant to be kept as it was; prompt for creating orginal notes of the same topic or deletion of the unoriginal thoughts
+4. create table of content (TOC) /index/overview notes for relevant notes for high-level retrieval and review
+5. creating tags for notes to add more dimensions to each note
+6. review of all the tags and standardize the tags by removing typos on certain tags and updating all the corresponding notes
+7. create a topic notes with corresponding tags and maybe prompt for interested topics/tags by time dimension
+8. reflections on past thoughts and provoking new thinkings just like the 'memories' functionalties from iphone photoes. ex: _"Hey, this is what you were thinking about topic A two years ago, what do you think now? "_
+9. removal of dead links or update the link with valid sources (html or other notes in the vault)
+10. tips/hints on past created notes to avoid creating new redudant notes for the same topic by providing 'intelligent' prompts everytime when authoring a new note
+11. summarization of daily notes given the tasks/notes of the day w.r.t certain time period (I have daily note created to organize the notes used of the day)
+12. final destination for information ingestion/digestion, workflow design to integrate the information from instapaper/zotereo/readwise/youtube/bilibili/linkedin/substack/superlinear academy with valid links/sources
+
+**Challgenes**:
+
+1. Various formats such as images, markdowns, videos, links and pdfs etc and be able to handle and minipulate multi-mode
+2. orphan notes are easy to identify, creating connections are challenging and time consuming, setting the criteira for connections and reviews would probably require more decisions
+3. creating the TOC notes might be challenging in terms of organizing those notes into certain categoires or be able to classify them in certain ways to make the organization meaningful
+4. classification of original notes vs non-original notes might be fuzzy
+5. updating the note titles or tags without the proper sequential design could cause referential integrity issue
+
+**Tech route:**
+
+1. obsidian is open-source and has lots of plugins available, maybe some of the functionalities can be achvieved by just installing more plugins ; or modifying existing plugins to achieve my particular functionality
+2. the requirement for removal of redudant notes or creating combined version seemed to be "delegatable" to AI, but the crieteria for evaluating 'redudancy' is a bit fuzzy, could be similar titles or different titles but very similar contents, keywords match would work, is there a need for 'intelligence'?
+3. after the cleanup from above step, creating tags for each notes might be a good next step to do
+4. the requirement for creating TOC notes seemed to be 'delegatable' to AI as well, the organization within TOC is something more granular, would probably require more 'intelligence'. The TOC note can leverage the 'links' between each notes and also the tags to group different notes together first. The next step would be to offer some kind of 'organization', maybe using a topic clustering etc.
+5. the reuquirement for 'searching' sources for dead links or orphan notes would require the removal/clean process to be done first; Searching within the same vault would be not too difficult and adding links would be the good enought. Searching online might work but maybe not necessary
+6. reflections on past notes and prompts for in-depth thinking seemed to be more something that can be delegated to 'AI', but maybe create a plugin to do so or find some would be easier and more cost-effective
+
+**Success criteria:**
+
+1. The entire obsidian vault is smaller and tighter with all original thoughts and ideas
+2. all the notes are well connected with each other
+3. future creation and maintenance should be also well-connected to the past notes and avoid reduancies
