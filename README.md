@@ -14,8 +14,18 @@ Hachi is an AI-powered project designed for streamlining the maintenance of your
 
 ## Description
 
-xxx 
-
 ## Installation
+
+## Setup Instructions
+
+### Step 1: Set Up Your Python Environment
+
+1. Clone the repository and navigate to the project directory.
+2. Set up a virtual environment and install dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r environment/requirements.txt
+
 
 xxxx 
