@@ -2,7 +2,7 @@
 
 Hachi is an AI-powered project designed for streamlining the maintenance of your Obsidian vault and allows you train your own personal AI assistant given the original thoughts and facts documented in your Obsidian vault.
  
-![Cyberpunk Corgi](assets/hachi_oosaki.png)
+![Cyberpunk Corgi](assets/hachi oosaki.png)
 
 ## Table of Contents
 
